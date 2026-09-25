@@ -40,6 +40,16 @@ window.PRODUTOS = [
     tags: 'homem aranha homem-aranha super herói super heroi infantil animado vermelho azul menino'
   },
   {
+  codigo: 'INF-005',
+  nome: 'Formatura ABC Cinematográfico',
+  categoria: 'infantil',
+  tipo: 'Cinematográfico',
+  preco: 'R$ 149,90',
+  imagem: 'imagens/produtos/capa-formatura01.png',
+  pagina: 'produtos/formatura-abc-cinematografico.html',
+  tags: 'formatura abc cinematografico cinematográfico infantil formatura senha mascote falante video vídeo confirmação presença localização escola alfabetização'
+},
+  {
     codigo: 'XV-001',
     nome: 'Tiana 15 Anos',
     categoria: '15-anos',
