@@ -35,7 +35,7 @@ window.PRODUTOS = [
     categoria: 'infantil',
     tipo: 'Animado',
     preco: 'R$ 39,90',
-    imagem: 'imagens/produtos/homem-aranha.jpeg',
+    imagem: 'imagens/produtos/homem-aranha.jpg',
     pagina: 'produtos/homem-aranha.html',
     tags: 'homem aranha homem-aranha super herói super heroi infantil animado vermelho azul menino'
   },
