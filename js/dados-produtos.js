@@ -29,6 +29,16 @@ window.PRODUTOS = [
     pagina: 'produtos/formatura-abc.html',
     tags: 'formatura abc infantil animado escola alfabetização alfabetizacao formando'
   },
+    {
+    codigo: 'INF-004',
+    nome: 'Homem-Aranha',
+    categoria: 'infantil',
+    tipo: 'Animado',
+    preco: 'R$ 39,90',
+    imagem: 'imagens/produtos/homem-aranha.jpeg',
+    pagina: 'produtos/homem-aranha.html',
+    tags: 'homem aranha homem-aranha super herói super heroi infantil animado vermelho azul menino'
+  },
   {
     codigo: 'XV-001',
     nome: 'Tiana 15 Anos',
