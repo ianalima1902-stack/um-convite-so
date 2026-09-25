@@ -50,6 +50,56 @@ window.PRODUTOS = [
   tags: 'formatura abc cinematografico cinematográfico infantil formatura senha mascote falante video vídeo confirmação presença localização escola alfabetização'
 },
   {
+  codigo: 'INF-006',
+  nome: 'Cinderela',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/cinderela-tradicional01.png',
+  pagina: 'produtos/cinderela-tradicional.html',
+  tags: 'cinderela princesa azul tradicional estatico estático infantil menina'
+},
+{
+  codigo: 'INF-007',
+  nome: 'Fazendinha Aquarela',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/fazendinha-aquarela-tradicional01.png',
+  pagina: 'produtos/fazendinha-aquarela-tradicional.html',
+  tags: 'fazendinha aquarela fazenda tradicional estatico estático infantil menina menino'
+},
+{
+  codigo: 'INF-008',
+  nome: 'Futebol',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/futebol-tradicional01.png',
+  pagina: 'produtos/futebol-tradicional.html',
+  tags: 'futebol bola esporte tradicional estatico estático infantil menino'
+},
+{
+  codigo: 'INF-009',
+  nome: 'Homem-Aranha Tradicional',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/homem-aranha-tradicional01.png',
+  pagina: 'produtos/homem-aranha-tradicional.html',
+  tags: 'homem aranha homem-aranha super heroi super-heroi tradicional estatico estático infantil menino vermelho azul'
+},
+{
+  codigo: 'INF-010',
+  nome: 'Princesas Cute',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/princesas-cute-tradicional01.png',
+  pagina: 'produtos/princesas-cute-tradicional.html',
+  tags: 'princesas cute princesa tradicional estatico estático infantil menina rosa delicado'
+},
+  {
     codigo: 'XV-001',
     nome: 'Tiana 15 Anos',
     categoria: '15-anos',
