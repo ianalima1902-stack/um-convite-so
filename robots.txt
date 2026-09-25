@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://um-convite-so.vercel.app/sitemap.xml
