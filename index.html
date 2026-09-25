@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Um Convite Só | Convites Digitais Personalizados</title>
+
+  <meta
+    name="description"
+    content="Convites digitais personalizados para festas infantis, 15 anos, casamentos e formaturas. Escolha seu modelo e personalize com os dados da sua festa."
+  />
+
+  <meta name="author" content="Um Convite Só" />
+
+  <!-- Compartilhamento no WhatsApp, Facebook e outras redes -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Um Convite Só | Convites Digitais Personalizados" />
+  <meta
+    property="og:description"
+    content="Convites digitais personalizados para momentos especiais. Infantil, 15 anos, casamento, formatura e projetos exclusivos."
+  />
+  <meta property="og:url" content="https://www.umconviteso.com.br/" />
+  <meta property="og:image" content="https://www.umconviteso.com.br/imagens/og/compartilhamento.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:site_name" content="Um Convite Só" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Prévia em outras plataformas -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Um Convite Só | Convites Digitais Personalizados" />
+  <meta
+    name="twitter:description"
+    content="Convites digitais personalizados para momentos especiais."
+  />
+  <meta name="twitter:image" content="https://www.umconviteso.com.br/imagens/og/compartilhamento.png" />
+
+  <link rel="canonical" href="https://www.umconviteso.com.br/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Um Convite Só - início">
+      <img src="imagens/logo/logo-transparente.png" alt="Um Convite Só - Convites Digitais" />
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#modelos">Modelos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#personalizado">Personalizados</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <span class="eyebrow">Convites digitais personalizados</span>
+        <h1>Seu convite começa a experiência da sua festa.</h1>
+        <p>Escolha um modelo, envie os dados e receba seu convite personalizado, pronto para compartilhar.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#modelos">Ver convites</a>
+          <a class="button secondary" href="#personalizado">Quero algo exclusivo</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <img src="imagens/interface/hero-mockup.jpg" alt="Amostra de convites digitais infantil, casamento e 15 anos" />
+      </div>
+    </section>
+
+    <section class="search-section section-shell" aria-labelledby="search-title">
+      <div class="section-heading centered">
+        <span class="eyebrow">Encontre mais rápido</span>
+        <h2 id="search-title">Busque pelo tema da sua festa</h2>
+      </div>
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="productSearch" type="search" placeholder="Ex.: jardim encantado, casamento, formatura..." autocomplete="off" />
+      </label>
+      <p id="searchStatus" class="search-status" aria-live="polite"></p>
+    </section>
+
+    <section id="categorias" class="categories section-shell">
+      <div class="section-heading">
+        <span class="eyebrow">Para cada momento</span>
+        <h2>Escolha uma categoria</h2>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="infantil.html">
+          <span class="category-icon">♡</span>
+          <h3>Infantil</h3>
+          <p>Convites encantadores, personalizados e fáceis de compartilhar.</p>
+        </a>
+        <a class="category-card" href="quinze-anos.html">
+          <span class="category-icon">✦</span>
+          <h3>15 anos</h3>
+          <p>Modelos delicados e marcantes para uma celebração inesquecível.</p>
+        </a>
+        <a class="category-card" href="casamento.html">
+          <span class="category-icon">♡</span>
+          <h3>Casamento</h3>
+          <p>Convites elegantes para apresentar o grande dia com personalidade.</p>
+        </a>
+        <a class="category-card" href="#personalizado">
+          <span class="category-icon">✎</span>
+          <h3>Personalizados</h3>
+          <p>Um projeto criado do zero para combinar com a sua ideia.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="modelos" class="products section-shell">
+      <div class="section-heading row-heading">
+        <div>
+          <span class="eyebrow">Catálogo inicial</span>
+          <h2>Modelos em destaque</h2>
+        </div>
+        <button id="clearFilter" class="text-button" type="button" hidden>Ver todos</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-name="Jardim Encantado Vermelho e Rosa" data-category="infantil" data-tags="jardim encantado vermelho rosa infantil animado">
+          <div class="product-media"><img src="imagens/produtos/jardim-encantado-vermelho-rosa.png" alt="Capa do convite animado Jardim Encantado Vermelho e Rosa" /></div>
+          <div class="product-info">
+            <span class="product-type">Infantil • Animado</span>
+            <h3>Jardim Encantado Vermelho e Rosa</h3>
+            <p class="price">R$ 39,90</p>
+            <a class="button secondary product-button" href="produtos/jardim-encantado-vermelho-rosa.html">Ver este modelo</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Jesus é o Meu Melhor Amigo" data-category="infantil" data-tags="jesus melhor amigo infantil cristão cristao animado">
+          <div class="product-media"><img src="imagens/produtos/jesus-meu-melhor-amigo.png" alt="Capa do convite animado Jesus é o Meu Melhor Amigo" /></div>
+          <div class="product-info">
+            <span class="product-type">Infantil • Animado</span>
+            <h3>Jesus é o Meu Melhor Amigo</h3>
+            <p class="price">R$ 39,90</p>
+           <a class="button secondary product-button" href="produtos/jesus-e-o-meu-melhor-amigo.html">Ver este modelo</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Tiana 15 Anos" data-category="15 anos" data-tags="tiana 15 anos debutante animado princesa">
+          <div class="product-media"><img src="imagens/produtos/tiana-15-anos.png" alt="Capa do convite animado Tiana 15 Anos" /></div>
+          <div class="product-info">
+            <span class="product-type">15 anos • Animado</span>
+            <h3>Tiana 15 Anos</h3>
+            <p class="price">R$ 49,90</p>
+            <a class="button secondary product-button" href="produtos/tiana-15-anos.html">Ver este modelo</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Casamento Magnólias Rosa" data-category="casamento" data-tags="casamento magnólias magnolias rosa floral interativo">
+          <div class="product-media"><img src="imagens/produtos/casamento-magnolias-rosa.png" alt="Convite interativo de casamento Magnólias Rosa" /></div>
+          <div class="product-info">
+            <span class="product-type">Casamento • Interativo</span>
+            <h3>Casamento Magnólias Rosa</h3>
+            <p class="price">R$ 49,90</p>
+            <a class="button secondary product-button" href="produtos/casamento-magnolias-rosa.html">Ver este modelo</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Casamento Lavanda" data-category="casamento" data-tags="casamento lavanda floral lilás lilas interativo">
+          <div class="product-media"><img src="imagens/produtos/casamento-lavanda.png" alt="Convite interativo de casamento Lavanda" /></div>
+          <div class="product-info">
+            <span class="product-type">Casamento • Interativo</span>
+            <h3>Casamento Lavanda</h3>
+            <p class="price">R$ 49,90</p>
+            <a class="button secondary product-button" href="produtos/casamento-lavanda.html">Ver este modelo</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Formatura ABC" data-category="infantil" data-tags="formatura abc infantil animado escola alfabetização alfabetizacao">
+          <div class="product-media"><img src="imagens/produtos/formatura-abc.png" alt="Capa do convite animado Formatura ABC" /></div>
+          <div class="product-info">
+            <span class="product-type">Formatura • Animado</span>
+            <h3>Formatura ABC</h3>
+            <p class="price">R$ 39,90</p>
+           <a class="button secondary product-button" href="produtos/formatura-abc.html">Ver este modelo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="how-it-works section-shell">
+      <div class="section-heading centered">
+        <span class="eyebrow">Simples do começo ao fim</span>
+        <h2>Como funciona</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step"><strong>1</strong><h3>Escolha</h3><p>Encontre o modelo que combina com sua festa.</p></div>
+        <div class="step"><strong>2</strong><h3>Envie os dados</h3><p>Nome, data, horário, local e demais informações.</p></div>
+        <div class="step"><strong>3</strong><h3>Personalizamos</h3><p>Adaptamos o modelo com as informações do seu evento.</p></div>
+        <div class="step"><strong>4</strong><h3>Compartilhe</h3><p>Receba seu convite digital pronto para enviar aos convidados.</p></div>
+      </div>
+    </section>
+
+    <section id="personalizado" class="custom-section section-shell">
+      <div class="custom-card">
+        <div>
+          <span class="eyebrow">Sua ideia, do seu jeito</span>
+          <h2>Não encontrou o tema que procura?</h2>
+          <p>Também criamos projetos personalizados do zero, pensados especialmente para o estilo da sua celebração.</p>
+        </div>
+        <button class="button primary" type="button" id="customProject">Quero um projeto personalizado</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <img src="imagens/logo/logo-transparente.png" alt="Um Convite Só" />
+    <p>Convites digitais para momentos que merecem começar de um jeito especial.</p>
+    <p class="footer-note">WhatsApp e Instagram serão conectados na próxima etapa.</p>
+  </footer>
+
+  <div class="modal" id="contactModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Fechar">×</button>
+      <span class="eyebrow">Quase lá</span>
+      <h2 id="modalTitle">Quero este modelo</h2>
+      <p id="modalText">Na próxima etapa, este botão abrirá seu WhatsApp com a mensagem do produto já preenchida.</p>
+      <button class="button primary modal-close-action" type="button">Entendi</button>
+    </div>
+  </div>
+  <script src="js/dados-produtos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

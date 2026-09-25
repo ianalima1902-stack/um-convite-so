@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Convites digitais de 15 anos personalizados da Um Convite Só." />
+  <title>Convites de 15 Anos | Um Convite Só</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-category="15-anos">
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="imagens/logo/logo-transparente.png" alt="Um Convite Só" /></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="infantil.html">Infantil</a>
+      <a href="quinze-anos.html">15 anos</a>
+      <a href="casamento.html">Casamento</a>
+    </nav>
+  </header>
+  <main>
+    <section class="category-hero section-shell">
+      <span class="eyebrow">Catálogo 15 anos</span>
+      <h1>Convites de 15 anos</h1>
+      <p>Modelos delicados, modernos e personalizados para marcar o início de um novo capítulo.</p>
+    </section>
+    <section class="category-catalog section-shell">
+      <label class="search-box category-search-box"><span aria-hidden="true">⌕</span><input id="categorySearch" type="search" placeholder="Busque por tema ou código..." autocomplete="off" /></label>
+      <p id="categorySearchStatus" class="search-status" aria-live="polite"></p>
+      <div class="product-grid category-product-grid" id="categoryProductGrid"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><img src="imagens/logo/logo-transparente.png" alt="Um Convite Só" /><p>Convites digitais para momentos especiais.</p></footer>
+  <script src="js/dados-produtos.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/categoria.js"></script>
+</body>
+</html>
