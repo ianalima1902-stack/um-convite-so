@@ -150,6 +150,66 @@ window.PRODUTOS = [
   tags: 'mickey realeza rei príncipe principe infantil animado menino dourado azul'
 },
   {
+  codigo: 'INF-016',
+  nome: 'Leo Caminhão',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/leocaminhao-tradicional01.png',
+  pagina: 'produtos/leo-caminhao-tradicional.html',
+  tags: 'leo caminhao caminhão veiculo veículo infantil tradicional menino'
+},
+{
+  codigo: 'INF-017',
+  nome: 'Maria Clara e JP',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/mariaclaraejp-tradicional01.png',
+  pagina: 'produtos/maria-clara-e-jp-tradicional.html',
+  tags: 'maria clara jp infantil tradicional menina menino dupla'
+},
+{
+  codigo: 'INF-018',
+  nome: 'Sereia',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/sereia-tradicional01.png',
+  pagina: 'produtos/sereia-tradicional.html',
+  tags: 'sereia fundo do mar oceano mar infantil tradicional menina'
+},
+{
+  codigo: 'INF-019',
+  nome: 'Skye e Everest',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/skyeeeverest-tradicional01.png',
+  pagina: 'produtos/skye-e-everest-tradicional.html',
+  tags: 'skye everest patrulha canina infantil tradicional menina cachorro'
+},
+{
+  codigo: 'INF-020',
+  nome: 'Stitch',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/stitch-tradicional01.png',
+  pagina: 'produtos/stitch-tradicional.html',
+  tags: 'stitch azul havai infantil tradicional menina menino'
+},
+{
+  codigo: 'INF-021',
+  nome: 'Ursinho Pooh',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/ursinhopooh-tradicional01.png',
+  pagina: 'produtos/ursinho-pooh-tradicional.html',
+  tags: 'ursinho pooh ursinho pooh mel infantil tradicional menino menina'
+},
+  {
     codigo: 'XV-001',
     nome: 'Tiana 15 Anos',
     categoria: '15-anos',
