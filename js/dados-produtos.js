@@ -100,6 +100,56 @@ window.PRODUTOS = [
   tags: 'princesas cute princesa tradicional estatico estático infantil menina rosa delicado'
 },
   {
+  codigo: 'INF-011',
+  nome: 'Jardim Encantado 02',
+  categoria: 'infantil',
+  tipo: 'Animado',
+  preco: 'R$ 39,90',
+  imagem: 'imagens/produtos/capa-jardim-encantado-animado02.png',
+  pagina: 'produtos/jardim-encantado-animado02.html',
+  tags: 'jardim encantado flores floral borboletas infantil animado menina delicado'
+},
+{
+  codigo: 'INF-012',
+  nome: 'Joaninha',
+  categoria: 'infantil',
+  tipo: 'Animado',
+  preco: 'R$ 39,90',
+  imagem: 'imagens/produtos/capa-joaninha-animado01.png',
+  pagina: 'produtos/joaninha-animado01.html',
+  tags: 'joaninha jardim vermelho preto infantil animado menina natureza'
+},
+{
+  codigo: 'INF-013',
+  nome: 'Pool Party',
+  categoria: 'infantil',
+  tipo: 'Animado',
+  preco: 'R$ 39,90',
+  imagem: 'imagens/produtos/capa-poolparty01.png',
+  pagina: 'produtos/poolparty-animado01.html',
+  tags: 'pool party piscina verão verao festa infantil animado agua água'
+},
+{
+  codigo: 'INF-014',
+  nome: 'Alice',
+  categoria: 'infantil',
+  tipo: 'Animado',
+  preco: 'R$ 39,90',
+  imagem: 'imagens/produtos/capa-animado-alice01.png',
+  pagina: 'produtos/alice-animado01.html',
+  tags: 'alice pais maravilhas país das maravilhas infantil animado menina fantasia'
+},
+{
+  codigo: 'INF-015',
+  nome: 'Mickey Realeza',
+  categoria: 'infantil',
+  tipo: 'Animado',
+  preco: 'R$ 39,90',
+  imagem: 'imagens/produtos/capa-mickeyrealeza-animado01.png',
+  pagina: 'produtos/mickey-realeza-animado01.html',
+  tags: 'mickey realeza rei príncipe principe infantil animado menino dourado azul'
+},
+  {
     codigo: 'XV-001',
     nome: 'Tiana 15 Anos',
     categoria: '15-anos',
