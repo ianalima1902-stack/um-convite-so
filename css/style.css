@@ -552,7 +552,7 @@ h3 {
 .invite-type-image {
   width: 100%;
   background: #f8f4fc;
-  padding: 18px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -632,7 +632,7 @@ h3 {
   }
 
   .invite-type-image {
-    padding: 14px;
+    padding: 0;
   }
 
   .invite-type-image img {
