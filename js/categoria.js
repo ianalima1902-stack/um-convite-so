@@ -312,8 +312,10 @@ function renderizarCategoria(termo = '') {
       statusBusca.textContent =
         `${produtos.length} modelo${
           produtos.length === 1 ? '' : 's'
-        } disponível${
-          produtos.length === 1 ? '' : 'is'
+        } ${
+          produtos.length === 1
+            ? 'disponível'
+            : 'disponíveis'
         }.`;
 
     }
