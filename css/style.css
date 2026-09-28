@@ -242,6 +242,7 @@ h3 {
 .categories,
 .products,
 .how-it-works,
+.invite-types,
 .custom-section {
   padding: 72px 0;
 }
@@ -513,6 +514,92 @@ h3 {
 
 
 /* ==============================
+   TIPOS DE CONVITE E PREÇOS
+   ============================== */
+
+.invite-types-intro {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--muted);
+}
+
+.invite-types-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.invite-type-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: 0 8px 25px rgba(105, 80, 148, .06);
+  transition: .2s ease;
+}
+
+.invite-type-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--lavender);
+  box-shadow: var(--shadow);
+}
+
+.invite-type-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--surface-soft);
+  color: var(--purple-dark);
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.invite-type-card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+
+.invite-type-description {
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+
+.invite-type-price {
+  display: grid;
+  gap: 2px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.invite-type-price span {
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.invite-type-price strong {
+  font-family: "Outfit", "DM Sans", sans-serif;
+  color: var(--purple-dark);
+  font-size: 1.55rem;
+}
+
+.invite-type-button {
+  width: 100%;
+}
+
+.invite-types-note {
+  text-align: center;
+  color: var(--muted);
+  font-size: .88rem;
+  margin: 20px 0 0;
+}
+
+
+/* ==============================
    PERSONALIZADO
    ============================== */
 
@@ -666,6 +753,10 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .invite-types-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .custom-card {
     grid-template-columns: 1fr;
   }
@@ -704,6 +795,7 @@ h3 {
   .categories,
   .products,
   .how-it-works,
+  .invite-types,
   .custom-section {
     padding: 52px 0;
   }
@@ -802,6 +894,19 @@ h3 {
     font-size: .7rem;
     line-height: 1.15;
     text-align: center;
+  }
+
+  .invite-types-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .invite-type-card {
+    padding: 22px 20px;
+  }
+
+  .invite-type-description {
+    margin-bottom: 18px;
   }
 
   .steps-grid {
