@@ -805,7 +805,28 @@ h3 {
   }
 
   .steps-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .step {
+    padding: 18px 14px;
+  }
+
+  .step strong {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 10px;
+  }
+
+  .step h3 {
+    font-size: .95rem;
+    margin-bottom: 6px;
+  }
+
+  .step p {
+    font-size: .8rem;
+    line-height: 1.4;
   }
 
   .row-heading {
