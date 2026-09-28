@@ -548,15 +548,20 @@ h3 {
 }
 
 .invite-type-image {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 9 / 16;
   overflow: hidden;
-  background: var(--surface-soft);
+  background: #f8f4fc;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .invite-type-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
 }
 
 .invite-type-content {
