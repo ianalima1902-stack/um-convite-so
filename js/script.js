@@ -133,16 +133,14 @@ const customType = document.querySelector('#customType');
 const customColors = document.querySelector('#customColors');
 const customDate = document.querySelector('#customDate');
 
-const inviteTypeButtons = document.querySelectorAll('.invite-type-button');
-
 const whatsappNumber = '5585992875129';
 
 
-function openModal(tipoConvite = '') {
+function openModal(tipoSelecionado = '') {
   if (!modal) return;
 
-  if (customType) {
-    customType.value = tipoConvite || '';
+  if (tipoSelecionado && customType) {
+    customType.value = tipoSelecionado;
   }
 
   modal.classList.add('open');
@@ -178,11 +176,22 @@ if (customProject) {
 }
 
 
-inviteTypeButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    openModal(button.dataset.inviteType || '');
+// ==============================
+// BOTÕES DOS TIPOS DE CONVITE
+// ==============================
+
+document
+  .querySelectorAll('.invite-type-cta')
+  .forEach(button => {
+    button.addEventListener(
+      'click',
+      () => {
+        openModal(
+          button.dataset.inviteType || ''
+        );
+      }
+    );
   });
-});
 
 
 document
