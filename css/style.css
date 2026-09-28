@@ -629,7 +629,8 @@ h3 {
   }
 
   .invite-type-image {
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 07 / 16;
+    padding: 12px;
   }
 
   .invite-type-content {
