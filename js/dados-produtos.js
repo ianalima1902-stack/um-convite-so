@@ -210,6 +210,96 @@ window.PRODUTOS = [
   tags: 'ursinho pooh ursinho pooh mel infantil tradicional menino menina'
 },
   {
+  codigo: 'INF-022',
+  nome: 'Batizado Dourado',
+  categoria: 'infantil',
+  tipo: 'Interativo',
+  preco: 'R$ 34,90',
+  imagem: 'imagens/produtos/interativo-batizadodourado01.png',
+  pagina: 'produtos/batizado-dourado-interativo.html',
+  tags: 'batizado dourado infantil interativo religioso confirmação presença localização cerimônia recepção'
+},
+{
+  codigo: 'INF-023',
+  nome: 'Batizado Lavanda',
+  categoria: 'infantil',
+  tipo: 'Interativo',
+  preco: 'R$ 34,90',
+  imagem: 'imagens/produtos/interativo-batizadolavanda01.png',
+  pagina: 'produtos/batizado-lavanda-interativo.html',
+  tags: 'batizado lavanda lilás lilas infantil interativo religioso confirmação presença localização cerimônia recepção'
+},
+{
+  codigo: 'INF-024',
+  nome: 'Batizado Rosa',
+  categoria: 'infantil',
+  tipo: 'Interativo',
+  preco: 'R$ 34,90',
+  imagem: 'imagens/produtos/interativo-batizadorosa01.png',
+  pagina: 'produtos/batizado-rosa-interativo.html',
+  tags: 'batizado rosa infantil interativo religioso confirmação presença localização cerimônia recepção'
+},
+{
+  codigo: 'INF-025',
+  nome: 'Batizado Verde',
+  categoria: 'infantil',
+  tipo: 'Interativo',
+  preco: 'R$ 34,90',
+  imagem: 'imagens/produtos/interativo-batizadoverde01.png',
+  pagina: 'produtos/batizado-verde-interativo.html',
+  tags: 'batizado verde infantil interativo religioso confirmação presença localização cerimônia recepção'
+},
+{
+  codigo: 'INF-026',
+  nome: 'Batizado Rosa Tradicional',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/tradicional-batizadorosa01.png',
+  pagina: 'produtos/batizado-rosa-tradicional.html',
+  tags: 'batizado rosa infantil tradicional religioso'
+},
+{
+  codigo: 'INF-027',
+  nome: 'Batizado Verde Tradicional',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/tradicional-batizadoverde01.png',
+  pagina: 'produtos/batizado-verde-tradicional.html',
+  tags: 'batizado verde infantil tradicional religioso'
+},
+{
+  codigo: 'INF-028',
+  nome: 'Batizado Gêmeos 01',
+  categoria: 'infantil',
+  tipo: 'Interativo',
+  preco: 'R$ 34,90',
+  imagem: 'imagens/produtos/interativo-batizadogemeos01.png',
+  pagina: 'produtos/batizado-gemeos-01-interativo.html',
+  tags: 'batizado gemeos gêmeos infantil interativo religioso confirmação presença localização cerimônia recepção'
+},
+{
+  codigo: 'INF-029',
+  nome: 'Batizado Gêmeos 02',
+  categoria: 'infantil',
+  tipo: 'Interativo',
+  preco: 'R$ 34,90',
+  imagem: 'imagens/produtos/interativo-batizadogemeos02.png',
+  pagina: 'produtos/batizado-gemeos-02-interativo.html',
+  tags: 'batizado gemeos gêmeos infantil interativo religioso confirmação presença localização cerimônia recepção'
+},
+{
+  codigo: 'INF-030',
+  nome: 'Batizado Verde 02 Tradicional',
+  categoria: 'infantil',
+  tipo: 'Tradicional',
+  preco: 'R$ 19,90',
+  imagem: 'imagens/produtos/tradicional-batizadoverde02.png',
+  pagina: 'produtos/batizado-verde-02-tradicional.html',
+  tags: 'batizado verde infantil tradicional religioso'
+},
+  {
     codigo: 'XV-001',
     nome: 'Tiana 15 Anos',
     categoria: '15-anos',
