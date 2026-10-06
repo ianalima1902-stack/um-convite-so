@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://um-convite-so.vercel.app/sitemap.xml
+Sitemap: https://portifolio.umconviteso.com.br/sitemap.xml
